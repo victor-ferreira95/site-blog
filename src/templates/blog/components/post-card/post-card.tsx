@@ -41,7 +41,7 @@ export const PostCard = ({ slug, title, description, image, date, author }: Post
         </div>
 
         {/* Post info */}
-        <div className="px-2 mt-4 space-y-4">
+        <div className="px-2 my-4 space-y-4">
           <h2 className="text-heading-sm text-gray-100 line-clamp-3">
             {title}
           </h2>
